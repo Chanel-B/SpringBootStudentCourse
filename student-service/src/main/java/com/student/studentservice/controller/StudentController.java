@@ -15,7 +15,7 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/students")
 public class StudentController {
-    
+
     @Autowired
     StudentRepository repo;
 
