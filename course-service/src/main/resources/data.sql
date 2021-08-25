@@ -1,5 +1,5 @@
-INSERT INTO CORSO(ID, NOME, DESCRIZIONE, CREDITI) VALUES
-(1, 'Analisi', 'Matematica', 12),
+INSERT INTO COURSE(ID, NAME, DESCRIPTION, CREDITS) VALUES
+(1, 'Analisi', 'Matematics', 12),
 (2, 'Fisica Generale', 'Fisica', 12),
 (3, 'Fondamenti di informatica', 'Informatica', 6),
 (4, 'Fondamenti di Telecomunicazioni', 'Reti di Telecomunicazioni', 6),

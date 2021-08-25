@@ -19,6 +19,6 @@ public class Course {
     private int id;
     private String name;
     private String description;
-    private int credit;
+    private int credits;
 
 }
