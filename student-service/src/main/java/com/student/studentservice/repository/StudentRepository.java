@@ -4,5 +4,5 @@ import com.student.studentservice.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentRepository extends JpaRepository<Student, Integer> {
-
+    public Student findById(int id);
 }

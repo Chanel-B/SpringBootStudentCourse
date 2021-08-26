@@ -27,7 +27,7 @@ public class StudentController {
     }
 
     @GetMapping("/{id}")
-    Optional<Student> getStudentById(@PathVariable("id") int id){
+    Student getStudentById(@PathVariable("id") int id){
         return repo.findById(id);
     }
 }
